@@ -55,8 +55,17 @@
         </span>
         </td>
         <td class="align-middle text-center">
-        <a href="{{ route('users.edit', $user->id) }}" class="text-secondary font-weight-bold text-xs">
+        <a href="{{ route('users.edit', $user->id) }}" type="button"
+        class="btn btn-outline-warning text-secondary font-weight-bold text-xs btn-sm">
         Edit
+        </a>
+        <a type="button" href="{{ route('attendances.checkIn', $user->id) }}"
+        class="btn btn-outline-info text-secondary font-weight-bold text-xs btn-sm">
+        Check In
+        </a>
+        <a type="button" href="{{ route('attendances.getUserAttendance', $user->id) }}"
+        class="btn btn-outline-success text-secondary font-weight-bold text-xs btn-sm">
+        All Attendance
         </a>
         </td>
         </tr>
