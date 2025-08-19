@@ -43,7 +43,7 @@
             <label class="form-label">Password</label>
             <input type="password" name="password" class="form-control" required>
           </div>
-          <div class="form-check form-switch d-flex align-items-center mb-3">
+          <div class="form-switch d-flex align-items-center mb-3">
             <input class="form-check-input" type="checkbox" name="remember" id="rememberMe">
             <label class="form-check-label mb-0 ms-3" for="rememberMe">Remember me</label>
           </div>
